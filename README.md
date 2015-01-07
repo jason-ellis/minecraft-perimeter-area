@@ -1,2 +1,3 @@
 # minecraft-perimeter-area
-A game for 4th graders to practice calculating area and perimeter
+Fourth grade students are crazy about Minecraft. To give my wife's students a fun way to practice calculating
+perimeter and area, I created this Minecraft-themed 2-dimensional game. It is hosted on http://math.ellis.education.
