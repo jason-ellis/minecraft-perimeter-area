@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minecraft Perimeter and Area</title>
+    <link href="minecraft.css" type="text/css" rel="stylesheet">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/minecraft.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="mc-container">
+    <div id="mc-alert-sign"><img src="http://math.ellis.education/wp-content/themes/nirvana-child-math/img/sign.png">
+        <div id="mc-alert-sign-text">
+            <span class="mc-sign-largest">Correct!</span><br>
+            P= <span id="mc-perimeter-formula"></span><br>
+            A= <span id="mc-area-formula"></span><br>
+            <a href="#" id="mc-continue" class="mc-sign-largest">Continue</a>
+        </div>
+    </div>
+<div id="mc-info">
+    <p>Answer these questions about the dirt rectangle below</p>
+    <label for="mc-perimeter-input">What is the perimeter? <input type="text" id="mc-perimeter-input" class="mc-input"></label>
+    <div id="mc-perimeter-response" class="mc-response"></div>
+    <label for="mc-area-input">What is the area? <input type="text" id="mc-area-input" class="mc-input"></label>
+    <div id="mc-area-response" class="mc-response"></div>
+    <button type="button" id="mc-submit" class="mc-button">Check answers</button>
+</div>
+<div id="mc-canvas">
+    <div class="mc-sign" id="mc-length-sign">Length: </div>
+    <div class="mc-sign" id="mc-width-sign">Width: </div>
+</div>
+</div>
+
+</body>
+</html>
