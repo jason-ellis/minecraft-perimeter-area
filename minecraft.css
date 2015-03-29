@@ -1,139 +1,138 @@
 @font-face {
-    font-family: Minecraft;
-    src: url('minecraft.woff');
+  font-family: Minecraft;
+  src: url('minecraft.woff');
 }
-
 #mc-container {
-    padding-top: 20px;
-    margin: auto;
-    display: block;
-    width: 90%;
-    max-width: 800px;
+  padding-top: 20px;
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 800px;
 }
 #mc-alert-sign {
-    display: none;
-    width: 50%;
-    height: auto;
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    margin: auto;
+  display: none;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 #mc-alert-sign img {
-    height: auto;
-    width: 100%;
-    margin: auto;
+  height: auto;
+  width: 100%;
+  margin: auto;
 }
 #mc-alert-sign-text {
-    position: absolute;
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    text-align: center;
-    font-family: Minecraft, sans-serif;
-    font-size: 2.5em;
-    font-size: 3vw;
-    line-height: 2em;
-    line-height: 5vw;
+  position: absolute;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  font-family: Minecraft, sans-serif;
+  font-size: 2.5em;
+  font-size: 3vw;
+  line-height: 2em;
+  line-height: 5vw;
 }
 .mc-sign-largest {
-    font-size: 1.1em;
-    font-size: 5vw;
-    line-height: 1.8em;
-    line-height: 7vw;
+  font-size: 1.1em;
+  font-size: 5vw;
+  line-height: 1.8em;
+  line-height: 7vw;
 }
 #mc-continue {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 #mc-continue:hover {
-    color: #FFFFA0;
+  color: #FFFFA0;
 }
 #mc-info {
-    font-family: Minecraft, sans-serif;
+  font-family: Minecraft, sans-serif;
 }
 .mc-input {
-    width: 50px;
+  width: 50px;
 }
 .mc-response {
-    padding-left: 5em;
+  padding-left: 5em;
 }
 .mc-info-pos {
-    color: mediumseagreen;
+  color: mediumseagreen;
 }
 .mc-info-neg {
-    color: red;
+  color: red;
 }
 #mc-canvas {
-    position: relative;
-    margin: 10px auto;
-    display: block;
-    width: 100%;
-    max-width: 800px;
-    height: 0;
-    padding-bottom: 100%;
-    padding-top: 0;
+  position: relative;
+  margin: 10px auto;
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  height: 0;
+  padding-bottom: 100%;
+  padding-top: 0;
 }
 .mc-square {
-    float: left;
-    box-sizing: border-box;
-    border-collapse: collapse;
+  float: left;
+  box-sizing: border-box;
+  border-collapse: collapse;
 }
 .mc-dirt {
-    background-color: saddlebrown;
-    background-image: url('img/dirt.png');
-    background-size: 100%;
-    border: 1px solid black;
+  background-color: saddlebrown;
+  background-image: url('img/dirt.png');
+  background-size: 100%;
+  border: 1px solid black;
 }
 .mc-grass {
-    background-color: green;
-    background-image: url('img/grass.png');
-    background-size: 100%;
+  background-color: green;
+  background-image: url('img/grass.png');
+  background-size: 100%;
 }
 .mc-sign {
-    padding-top: 3px;
-    font-size: 14px;
-    line-height: 20px;
-    color: black;
-    display: block;
-    font-family: Minecraft, sans-serif;
-    height: 48px;
-    width: 96px;
-    margin: 0;
-    background-color: sandybrown;
-    background-image: url('img/sign.png');
-    background-size: 100%;
-    text-align: center;
-    vertical-align: middle;
-    position: absolute;
+  padding-top: 3px;
+  font-size: 14px;
+  line-height: 20px;
+  color: black;
+  display: block;
+  font-family: Minecraft, sans-serif;
+  height: 48px;
+  width: 96px;
+  margin: 0;
+  background-color: sandybrown;
+  background-image: url('img/sign.png');
+  background-size: 100%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
 }
 #mc-length-sign {
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    left: -15px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: -15px;
 }
 #mc-width-sign {
-    left:0;
-    right:0;
-    top: -10px;
-    margin:auto;
+  left: 0;
+  right: 0;
+  top: -10px;
+  margin: auto;
 }
 button.mc-button {
-    background-color: #6F6F6F;
-    color: white;
-    font-size: 16px;
-    border-style: outset;
-    border-width: 3px;
-    width: auto;
-    margin: 0;
-    padding: 6px 10px 6px 10px;
-    font-family: Minecraft, sans-serif;
+  background-color: #6F6F6F;
+  color: white;
+  font-size: 16px;
+  border-style: outset;
+  border-width: 3px;
+  width: auto;
+  margin: 0;
+  padding: 6px 10px 6px 10px;
+  font-family: Minecraft, sans-serif;
 }
 button:hover.mc-button,
 button:active.mc-button {
-    background-color: #7E88BF;
-    color: #FFFFA0;
+  background-color: #7E88BF;
+  color: #FFFFA0;
 }
